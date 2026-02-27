@@ -1,0 +1,98 @@
+[2026-02-20 14:59:51 UTC] DOCKER_API_VERSION=1.44 /usr/bin/docker exec eventos-app php artisan --version
+[2026-02-20 15:03:46 UTC] DOCKER_API_VERSION=1.44 /usr/bin/docker exec laravel_eventos_app pgrep -a php
+[2026-02-20 15:06:34 UTC] DOCKER_API_VERSION=1.44 /usr/bin/docker exec laravel_eventos_app php artisan queue:work --queue=emails --once
+[2026-02-20 15:10:01 UTC] DOCKER_API_VERSION=1.44 /usr/bin/docker exec laravel_eventos_app ls
+[2026-02-20 15:10:45 UTC] DOCKER_API_VERSION=1.44 /usr/bin/docker exec laravel_eventos_app php artisan queue:work --queue=emails --once
+[2026-02-20 15:11:44 UTC] DOCKER_API_VERSION=1.44 /usr/bin/docker exec laravel_eventos_app php artisan queue:work --queue=emails --once --sleep=1 --timeout=5
+sex 20 fev 2026 12:43:03 -03: Gatilho detectado via IA. Reiniciando Worker...
+sex 20 fev 2026 12:43:13 -03: Comando executado pelo Host.
+sex 20 fev 2026 12:44:28 -03: Gatilho detectado via IA. Reiniciando Worker...
+sex 20 fev 2026 12:44:28 -03: Comando executado pelo Host.
+[2026-02-20 17:58:13 UTC] DOCKER_API_VERSION=1.44 /usr/bin/docker exec laravel_eventos_app tail -n 100 storage/logs/laravel.log
+[2026-02-23 15:59:43 UTC] DOCKER_API_VERSION=1.44 /usr/bin/docker exec -d laravel_eventos_app php artisan queue:work --queue=emails
+[seg 23 fev 2026 16:52:01 -03] GATILHO: Flag detectada. Reiniciando Worker...
+[seg 23 fev 2026 16:52:02 -03] SUCESSO: Worker reiniciado e flag removida.
+seg 23 fev 2026 16:52:02 -03: Git Status atualizado para a IA.
+seg 23 fev 2026 16:53:01 -03: Git Status atualizado para a IA.
+seg 23 fev 2026 16:59:01 -03: Git Status atualizado para a IA.
+[seg 23 fev 2026 17:03:01 -03] seg 23 fev 2026 17:03:01 -03: Git Status atualizado para a IA.
+[seg 23 fev 2026 17:22:01 -03] Gerando Git Status da pasta eventos...
+[seg 23 fev 2026 17:22:01 -03] Git Status atualizado.
+[seg 23 fev 2026 17:36:01 -03] Executando: git add laravel/tests/Feature/GerarIngressosLoteTest.php
+[seg 23 fev 2026 17:36:01 -03] SUCESSO: git add concluído.
+[seg 23 fev 2026 17:37:01 -03] Gerando Git Status da pasta eventos...
+[seg 23 fev 2026 17:37:01 -03] Git Status atualizado.
+[ter 24 fev 2026 21:41:01 -03] GATILHO: Git Push detectado...
+fatal: The current branch EVENTOS-117 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin EVENTOS-117
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+[ter 24 fev 2026 21:41:01 -03] ERRO: Falha no Push. Verifique o log.
+[ter 24 fev 2026 21:48:01 -03] Verificando configurações do Git...
+[ter 24 fev 2026 21:48:01 -03] Verificação do Git concluída.
+[qua 25 fev 2026 15:07:01 -03] Gerando Git Status da pasta eventos...
+[qua 25 fev 2026 15:07:01 -03] Git Status atualizado.
+[qua 25 fev 2026 15:11:01 -03] Executando: git add laravel/app/Http/Controllers/IngressosController.php
+laravel/resources/views/pages/ingressos/_show.blade.php
+warning: could not open directory 'laravel/app/Http/Controllers/IngressosController.php
+laravel/resources/views/pages/ingressos/': Arquivo ou diretório inexistente
+fatal: pathspec 'laravel/app/Http/Controllers/IngressosController.php
+laravel/resources/views/pages/ingressos/_show.blade.php' não encontrou nenhum arquivo
+[qua 25 fev 2026 15:11:01 -03] SUCESSO: git add concluído.
+[qua 25 fev 2026 15:12:01 -03] Gerando Git Status da pasta eventos...
+[qua 25 fev 2026 15:12:01 -03] Git Status atualizado.
+[qua 25 fev 2026 15:33:01 -03] Gerando Git Status da pasta eventos...
+[qua 25 fev 2026 15:33:01 -03] Git Status atualizado.
+[qua 25 fev 2026 15:33:01 -03] Executando: git add laravel/app/Http/Controllers/IngressosController.php
+laravel/resources/views/pages/ingressos/_show.blade.php
+warning: could not open directory 'laravel/app/Http/Controllers/IngressosController.php
+laravel/resources/views/pages/ingressos/': Arquivo ou diretório inexistente
+fatal: pathspec 'laravel/app/Http/Controllers/IngressosController.php
+laravel/resources/views/pages/ingressos/_show.blade.php' não encontrou nenhum arquivo
+[qua 25 fev 2026 15:33:01 -03] SUCESSO: git add concluído.
+[qua 25 fev 2026 15:35:01 -03] GATILHO: Git Add laravel/app/Http/Controllers/IngressosController.php
+laravel/resources/views/pages/ingressos/_show.blade.php
+[qua 25 fev 2026 15:37:01 -03] GATILHO: Git Status
+[qua 25 fev 2026 15:42:01 -03] GATILHO: Verificando Git Config
+[qua 25 fev 2026 15:53:01 -03] GATILHO: Configurando identidade Git...
+[qua 25 fev 2026 15:53:01 -03] SUCESSO: Git configurado como Hugo Matheus <hugo.lima@cnj.jus.br>
+[qua 25 fev 2026 15:54:01 -03] GATILHO: Verificando Git Config
+[qua 25 fev 2026 16:00:02 -03] GATILHO: Git Status
+[qua 25 fev 2026 16:06:01 -03] GATILHO: Git Commit com mensagem: fix: corrigindo exibição do cpf do inscrito na visualização do ingresso.
+[detached HEAD 267c789] fix: corrigindo exibição do cpf do inscrito na visualização do ingresso.
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+[qua 25 fev 2026 16:07:01 -03] GATILHO: Git Status
+[qua 25 fev 2026 16:17:01 -03] GATILHO: Git Push (Default)
+fatal: You are not currently on a branch.
+To push the history leading to the current (detached HEAD)
+state now, use
+
+    git push origin HEAD:<name-of-remote-branch>
+
+[qua 25 fev 2026 16:20:01 -03] GATILHO: Git Status
+[qua 25 fev 2026 16:26:01 -03] GATILHO: Git Status
+[qua 25 fev 2026 16:30:02 -03] GATILHO: Comando Manual: git checkout -B develop
+Switched to and reset branch 'develop'
+[qua 25 fev 2026 16:31:01 -03] GATILHO: Git Status
+[qua 25 fev 2026 16:33:01 -03] GATILHO: Git Push (Default)
+fatal: The current branch develop has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin develop
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+[qua 25 fev 2026 16:35:01 -03] GATILHO: Git Status
+[qua 25 fev 2026 16:48:01 -03] GATILHO: Comando Manual: git push --set-upstream origin develop
+remote: 
+remote: To create a merge request for develop, visit:        
+remote:   https://git.cnj.jus.br/cogs/eventos/-/merge_requests/new?merge_request%5Bsource_branch%5D=develop        
+remote: 
+To git.cnj.jus.br:cogs/eventos.git
+   3820de4..267c789  develop -> develop
+branch 'develop' set up to track 'origin/develop'.
